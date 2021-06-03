@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>영화 등록</title>
+<title>상영 영화 추가</title>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
@@ -92,53 +92,41 @@
 
   <!-- 본문 -->
   <div class="main">
-  	<h1>영화관리</h1>
+  	<h1>상영관리</h1>
          <div class="col-md-6 col-sm-12">
             <div class="form">
                <form>
                   <div class="form-group">
-                     <label>제목</label>
-                     <input type="text" class="form-control">
+                     <label>극장번호</label>
+                     <select class="form-control">
+                     	<option>신세계</option>
+                     	<option>칠성</option>
+                     	<option>어디?</option>
+                     </select>
                   </div>
                   <div class="form-group">
-                     <label>심의등급</label>
-                     <input type="text" class="form-control">
+                     <label>상영관번호</label>
+                     <select class="form-control">
+                     	<option>1(2D)</option>
+                     	<option>2(3D)</option>
+                     	<option>3(4D)</option>
+                     </select>
                   </div>
                   <div class="form-group">
-                     <label>장르</label>
-                     <input type="text" class="form-control">
+                     <label>영화번호</label>
+                     <select class="form-control">
+                     	<option>반지의제왕</option>
+                     	<option>해리포터</option>
+                     	<option>크루엘라</option>
+                     </select>
                   </div>
                   <div class="form-group">
-                     <label>런타임</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>감독</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>출연진</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>주요정보</label>
-                     <textarea class="form-control"></textarea>
-                  </div>
-                  <div class="form-group">
-                     <label>예고편URL</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>개봉일</label>
+                     <label>상영일</label>
                      <input type="text" class="form-control" placeholder="2021-06-02">
                   </div>
                   <div class="form-group">
-                     <label>종료일</label>
-                     <input type="text" class="form-control" placeholder="2021-06-02">
-                  </div>
-                   <div class="form-group">
-                     <label>파일 첨부</label>
-                     <input type="file" class="form-control">
+                     <label>시작시간</label>
+                     <input type="text" class="form-control">
                   </div>
                   <button type="submit" class="btn btn-primary">등록</button>
                   <button class="btn btn-primary">취소</button>
@@ -147,6 +135,5 @@
          </div>
       </div>
 </div>
-
 </body>
-</html>
+</html>            

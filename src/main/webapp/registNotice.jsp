@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>영화 등록</title>
+<title>공지사항</title>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
@@ -92,7 +91,7 @@
 
   <!-- 본문 -->
   <div class="main">
-  	<h1>영화관리</h1>
+  	<h1>공지사항</h1>
          <div class="col-md-6 col-sm-12">
             <div class="form">
                <form>
@@ -101,40 +100,8 @@
                      <input type="text" class="form-control">
                   </div>
                   <div class="form-group">
-                     <label>심의등급</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>장르</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>런타임</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>감독</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>출연진</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>주요정보</label>
+                     <label>내용</label>
                      <textarea class="form-control"></textarea>
-                  </div>
-                  <div class="form-group">
-                     <label>예고편URL</label>
-                     <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                     <label>개봉일</label>
-                     <input type="text" class="form-control" placeholder="2021-06-02">
-                  </div>
-                  <div class="form-group">
-                     <label>종료일</label>
-                     <input type="text" class="form-control" placeholder="2021-06-02">
                   </div>
                    <div class="form-group">
                      <label>파일 첨부</label>
